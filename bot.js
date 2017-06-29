@@ -1,7 +1,7 @@
 const apiKeys = require("./.env").apiKeys;
 const Twit = require('twit');
 const flavorText = require("./monster-text.json");
-const tweetRate = 70*1000;
+const tweetRate = 32400000;//9 hours
 
 
 class Bot {
