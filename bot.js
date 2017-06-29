@@ -13,7 +13,7 @@ class Bot {
     const flav = this.getRandomFlavorText(flavorText);
     this.api.post('statuses/update', {status: flav})
       .then(console.log(`Successful tweet:  ""${flav}""`))
-      .catch(errer => console.log(`An error occurred:  error.stack`));
+      .catch(error => console.log(`An error occurred:  error.stack`));
   }
 
   getRandomFlavorText(collection) {
