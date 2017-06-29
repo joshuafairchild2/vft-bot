@@ -2,10 +2,10 @@
   "name": "yg-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bot": "node bot.js"
+    "start": "node bot.js"
   },
   "author": "",
   "license": "ISC",
